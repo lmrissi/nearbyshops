@@ -1,0 +1,32 @@
+{% load static %}
+
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Nearby Shops</title>
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'libs/bootstrap-4.5.0-dist/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+    {% block extra_css %}
+    {% endblock extra_css %}
+</head>
+<body>
+{% include 'includes/navbar.html' %}
+
+<div class="contrainer-fluid">
+    {% block content %}
+    {% endblock content %}
+</div>
+<script src="{%static 'js/jquery-3.1.1.slim.min.js' %}"></script>
+<script src="{%static 'js/popper.min.js' %}"></script>
+<script src="{%static 'libs/bootstrap-4.5.0-dist/js/bootstrap.min.js' %}"></script>
+{% block extra_js %}
+{% endblock extra_js %}
+
+</body>
+</html>

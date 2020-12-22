@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+    <link href="{% static 'libs/leaflet/leaflet.css' %}" rel="stylesheet">
+{% endblock extra_css %}
+
+{% block content %}
+
+<h1>Nearby Shops</h1>
+
+{% if shops %}
+<ul>
+    {% for shop in shops %}
+    <li>
+        {{ shop.name }}: {{shop.distance}} - {{shop.location}}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<div id="map"></div>
+<input type="hidden" id="shops_dataset" value="{% url 'shops_dataset' %}">
+
+{% endblock content %}
+
+{% block extra_js %}
+    <script src="{% static 'libs/leaflet/leaflet.js'%}"></script>
+    <script src="{% static 'js/leaflet.ajax.js' %}" charset="utf-8"></script>
+    <script src="{% static 'js/map.js'%}"></script>
+{% endblock extra_js %}
+

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+    <link href="{% static 'libs/leaflet/leaflet.css' %}" rel="stylesheet">
+{% endblock extra_css %}
+
+{% block content %}
+    <div id="map"></div>
+    <input type="hidden" id="mun_geojson" value="{% url 'mun:mun_geojson' %}">
+    <input type="hidden" id="pocos_geojson" value="{% url 'points:poco_geojson' %}">
+{% endblock content %}
+
+{% block extra_js %}
+    <script src="{% static 'libs/leaflet/leaflet.js'%}"></script>
+    <script src="{% static 'js/map.js'%}"></script>
+{% endblock extra_js %}

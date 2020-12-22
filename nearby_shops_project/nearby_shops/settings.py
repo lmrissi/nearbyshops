@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+from decouple import config
+from dj_database_url import parse as db_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -21,10 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '@ypa8=95-mxrn)uc&e2u)g)(wy9%xmb-n1rh3i5852v(*@pods'
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = []
 
@@ -38,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.gis',
-    'shops'
+    'shops',
+    'leaflet',
 ]
 
 MIDDLEWARE = [
@@ -125,6 +128,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-PROJ_LIB = r'C:\Users\leona\PycharmProjects\nearby_shops\venv\Lib\site-packages\osgeo\data\proj'
-GDAL_LIBRARY_PATH = r'C:\Users\leona\PycharmProjects\nearby_shops\venv\Lib\site-packages\osgeo\gdal300.dll'
-GEOS_LIBRARY_PATH = r'C:\Users\leona\PycharmProjects\nearby_shops\venv\Lib\site-packages\osgeo\geos_c.dll'
+PROJ_LIB = r'C:\Users\leona\PycharmProjects\projeto_nearbyshops\venv\Lib\site-packages\osgeo\data\proj'
+GDAL_LIBRARY_PATH = r'C:\Users\leona\PycharmProjects\projeto_nearbyshops\venv\Lib\site-packages\osgeo\gdal300.dll'
+GEOS_LIBRARY_PATH = r'C:\Users\leona\PycharmProjects\projeto_nearbyshops\venv\Lib\site-packages\osgeo\geos_c.dll'
