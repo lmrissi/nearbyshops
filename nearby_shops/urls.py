@@ -20,5 +20,5 @@ from shops import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.Home.as_view()),
-    path('shops_dataset/', views.Home.shops_dataset, name='shops_dataset')
+    path('shops_dataset/', views.Home.shops_dataset, name='shops_dataset'),
 ]
