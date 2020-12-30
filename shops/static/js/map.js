@@ -8,6 +8,7 @@ var user_location = document.addEventListener('DOMContentLoaded', function(){
 
         var latitude   = position.coords.latitude;
         var longitude  = position.coords.longitude;
+        map.setView(new L.LatLng(latitude,longitude), 18);
         return new L.CircleMarker([latitude,longitude], {radius: 10})
         .bindPopup('Esta é sua localização.')
         .addTo(map)
@@ -57,8 +58,6 @@ var nearbyshops = L.geoJson([], {
 // Criando o mapa
 
 var map = L.map('map', {
-    center: [-23.5549792,-46.682847],
-	zoom: 18,
 	layers: [gstreets, googleSat]
 });
 
@@ -74,8 +73,8 @@ var overlays = {
     "Localizacao": localizacao
 };
 
-L.control.layers(baseLayers, overlays, {autoZIndex:false}).addTo(map);
+L.control.layers(baseLayers, overlays).addTo(map);
 
-// Barra de escala
+// Criando a barra de escala
 var scale = L.control.scale()
 scale.addTo(map)

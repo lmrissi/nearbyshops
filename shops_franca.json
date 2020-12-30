@@ -1,0 +1,1567 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.7 b85c4387",
+  "osm3s": {
+    "timestamp_osm_base": "2020-12-30T21:54:02Z",
+    "timestamp_areas_base": "2020-12-30T20:46:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2964780381,
+      "lat": -20.5261744,
+      "lon": -47.3690149,
+      "tags": {
+        "name": "Varejão Irmãos Patrocínio",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2965178991,
+      "lat": -20.5270117,
+      "lon": -47.3770829,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2965305627,
+      "lat": -20.5273092,
+      "lon": -47.3891015,
+      "tags": {
+        "name": "Tiãozinho Supermercado",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2966150397,
+      "lat": -20.54849,
+      "lon": -47.3989115,
+      "tags": {
+        "name": "Tonin Superatacado",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2966661171,
+      "lat": -20.5313311,
+      "lon": -47.3976031,
+      "tags": {
+        "addr:city": "Franca",
+        "addr:street": "Avenida Major Nicácio",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2967015773,
+      "lat": -20.5324203,
+      "lon": -47.3986237,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2967015813,
+      "lat": -20.5353788,
+      "lon": -47.4072749,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2967929914,
+      "lat": -20.5427906,
+      "lon": -47.3753242,
+      "tags": {
+        "addr:street": "Avenida Doutor Chafic Facury",
+        "name": "Rafa's Super Varejão",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2968332907,
+      "lat": -20.5296042,
+      "lon": -47.4131463,
+      "tags": {
+        "name": "Varejão Irmãos Patrocinio",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2969048304,
+      "lat": -20.52471,
+      "lon": -47.411072,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2969048920,
+      "lat": -20.5200234,
+      "lon": -47.4086728,
+      "tags": {
+        "addr:city": "Franca",
+        "addr:street": "Avenida Chico Júlio",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2978200266,
+      "lat": -20.5039387,
+      "lon": -47.407041,
+      "tags": {
+        "name": "DIA",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2978200267,
+      "lat": -20.5078648,
+      "lon": -47.4023219,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2991647504,
+      "lat": -20.5587914,
+      "lon": -47.3960595,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3024791379,
+      "lat": -20.532115,
+      "lon": -47.3958763,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3042061387,
+      "lat": -20.5038147,
+      "lon": -47.397585,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3045885448,
+      "lat": -20.5351919,
+      "lon": -47.3650412,
+      "tags": {
+        "name": "Santo Expedito",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3045885454,
+      "lat": -20.5333608,
+      "lon": -47.3659612,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3045885458,
+      "lat": -20.5322556,
+      "lon": -47.3665379,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3045885552,
+      "lat": -20.517229,
+      "lon": -47.3723087,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3047512257,
+      "lat": -20.5416288,
+      "lon": -47.3898305,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3050920069,
+      "lat": -20.5459329,
+      "lon": -47.3906899,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3072708811,
+      "lat": -20.5423425,
+      "lon": -47.3855901,
+      "tags": {
+        "addr:city": "Franca",
+        "addr:street": "Avenida Santa Cruz",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3075439792,
+      "lat": -20.4974242,
+      "lon": -47.4116464,
+      "tags": {
+        "addr:city": "Franca",
+        "addr:housenumber": "1781",
+        "addr:postcode": "14407-400",
+        "addr:street": "Avenida Ivete Vargas",
+        "addr:suburb": "Pq. Vicente Leporace I",
+        "name": "Leal Supermercado",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3089713782,
+      "lat": -20.5577789,
+      "lon": -47.3723273,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4427633290,
+      "lat": -20.5419907,
+      "lon": -47.4539327,
+      "tags": {
+        "name": "SM Ferreira Comércio de Alimentos",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5313473223,
+      "lat": -20.4980119,
+      "lon": -47.4188546,
+      "tags": {
+        "addr:street": "Avenida Doutor Abrahão Brickmann",
+        "name": "big compras",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5314050422,
+      "lat": -20.506459,
+      "lon": -47.4036493,
+      "tags": {
+        "addr:street": "Avenida Professor Moacir Vieira Coelho",
+        "name": "tonin supermercado",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5415571517,
+      "lat": -20.5325442,
+      "lon": -47.4173445,
+      "tags": {
+        "addr:city": "Franca",
+        "addr:housenumber": "576",
+        "addr:postcode": "14405342",
+        "addr:street": "Rua Francisco Marques",
+        "addr:suburb": "Vila Santos Dumont",
+        "name": "Varejão Vila Nova",
+        "opening_hours": "Mo-Sa 06:30-20:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6188986891,
+      "lat": -20.5560921,
+      "lon": -47.3758419,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6382028695,
+      "lat": -20.5904706,
+      "lon": -47.3745165,
+      "tags": {
+        "name": "Mercearia Vilela",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6382031792,
+      "lat": -20.5884179,
+      "lon": -47.3723641,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6382031817,
+      "lat": -20.5868411,
+      "lon": -47.3729702,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 159315523,
+      "nodes": [
+        1714206779,
+        1714206769,
+        1714206648,
+        1714206644,
+        1714206632,
+        1714206637,
+        1714206779
+      ],
+      "tags": {
+        "addr:city": "Franca",
+        "addr:street": "Avenida Antônio Barbosa Filho",
+        "building": "yes",
+        "name": "Atacadão",
+        "shop": "supermarket",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 159315752,
+      "nodes": [
+        1714211052,
+        1714211080,
+        1714211076,
+        1714211040,
+        2967015847,
+        2967015848,
+        1714211047,
+        7080190527,
+        1714211044,
+        1714211052
+      ],
+      "tags": {
+        "addr:street": "Avenida Antônio Barbosa Filho",
+        "building": "yes",
+        "name": "Big Supermercado",
+        "shop": "supermarket",
+        "source": "Bing",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 252259318,
+      "nodes": [
+        2583540634,
+        2583540636,
+        2583540638,
+        2583540640,
+        2583540642,
+        2583540645,
+        2583540634
+      ],
+      "tags": {
+        "name": "Makro Franca",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 293200355,
+      "nodes": [
+        2967696614,
+        3048013933,
+        2967696615,
+        2967696616,
+        2967696617,
+        2967696618,
+        2967696619,
+        2967696621,
+        2967696614
+      ],
+      "tags": {
+        "addr:city": "Franca",
+        "addr:street": "Rua Saldanha Marinho",
+        "building": "yes",
+        "name": "Savegnago Supermercados",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 293316722,
+      "nodes": [
+        2969048930,
+        2969048931,
+        2969048932,
+        2969049033,
+        3435171541,
+        3435171542,
+        2969049035,
+        2969049036,
+        2969049034,
+        3435171543,
+        2969048930
+      ],
+      "tags": {
+        "addr:city": "Franca",
+        "addr:street": "Avenida José Silva",
+        "building": "yes",
+        "name": "Savegnago",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 293604100,
+      "nodes": [
+        2972238154,
+        2972238155,
+        2972238156,
+        2972238157,
+        2972238154
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Irmãos Patrocínio",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 295037902,
+      "nodes": [
+        2987076508,
+        8205519454,
+        8205519453,
+        2987076511,
+        2987076508
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Gomes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 295099260,
+      "nodes": [
+        2987681009,
+        2987681010,
+        2987681011,
+        2987681012,
+        2987681009
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Lopes Supermercado",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 298591278,
+      "nodes": [
+        3024791339,
+        3024791340,
+        3024791341,
+        3024791342,
+        3024791339
+      ],
+      "tags": {
+        "addr:street": "Avenida Santa Cruz",
+        "brand": "Dia",
+        "brand:wikidata": "Q925132",
+        "brand:wikipedia": "es:Supermercados DIA",
+        "building": "yes",
+        "name": "Dia",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 300722213,
+      "nodes": [
+        3048293022,
+        3048293023,
+        3048293031,
+        3048293024,
+        3048293025,
+        3048293022
+      ],
+      "tags": {
+        "addr:street": "Avenida Brasil",
+        "building": "yes",
+        "name": "Savegnago",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 300722217,
+      "nodes": [
+        3048293144,
+        3048293158,
+        3048293145,
+        3048293146,
+        3048293147,
+        3048293144
+      ],
+      "tags": {
+        "addr:city": "Franca",
+        "addr:street": "Avenida Brasil",
+        "building": "yes",
+        "name": "Big Compra",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 302979451,
+      "nodes": [
+        3072708824,
+        3072708825,
+        5586984128,
+        3072708826,
+        3072708827,
+        3072708824
+      ],
+      "tags": {
+        "addr:city": "Franca",
+        "addr:street": "Avenida Jaime Tellini",
+        "building": "yes",
+        "name": "Tiãozinho Supermercados",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 303203356,
+      "nodes": [
+        3075439831,
+        3075439832,
+        3075442533,
+        3075442534,
+        3075442535,
+        3075442536,
+        3075439831
+      ],
+      "tags": {
+        "addr:city": "Franca",
+        "addr:housenumber": "845",
+        "addr:postcode": "14405-018",
+        "addr:street": "Avenida Paulino Pucci",
+        "addr:suburb": "Jardim Francano",
+        "building": "yes",
+        "name": "Rafa's Super Varejão",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 561663333,
+      "nodes": [
+        5415586167,
+        5415586168,
+        5415586169,
+        5415586170,
+        5415586167
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 624283438,
+      "nodes": [
+        5895147687,
+        5896919924,
+        5896919921,
+        5895147683,
+        5895147686,
+        5895155997,
+        5895147688,
+        5895147689,
+        5895147687
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 624283441,
+      "nodes": [
+        5895147694,
+        5895147695,
+        5895147696,
+        5895147697,
+        5895147694
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 624962366,
+      "nodes": [
+        5900858138,
+        5900858139,
+        5900858140,
+        5900858141,
+        5900858138
+      ],
+      "tags": {
+        "addr:city": "Franca",
+        "addr:housenumber": "1902",
+        "addr:postcode": "14405-094",
+        "addr:street": "Rua Voluntário Mário Mazini",
+        "addr:suburb": "Estação",
+        "building": "yes",
+        "name": "Peg Lev",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 654014181,
+      "nodes": [
+        6128816343,
+        6128816344,
+        6128816345,
+        6128816346,
+        6128816347,
+        6128816348,
+        6128816343
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Duminduim Supermercado",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 654364879,
+      "nodes": [
+        6131723933,
+        6131723934,
+        6131723935,
+        6131723936,
+        6131723933
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Supermercado Dalmi",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 654364880,
+      "nodes": [
+        6131723937,
+        6131723938,
+        6131723939,
+        6131723940,
+        6131723937
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Supermercado Ribeiro",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 654364881,
+      "nodes": [
+        6131723941,
+        6131723942,
+        6131723943,
+        6131723944,
+        6131723941
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Supermercado Cosme",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 681502562,
+      "nodes": [
+        6382123008,
+        6382123009,
+        6382123010,
+        6382123011,
+        6382123008
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 681504346,
+      "nodes": [
+        6382141942,
+        6382141943,
+        6382141944,
+        6382141942
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 681504507,
+      "nodes": [
+        6382144166,
+        6382144167,
+        6382144168,
+        6382144169,
+        6382144166
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 681507989,
+      "nodes": [
+        6382177945,
+        6382177946,
+        6382177947,
+        6382177948,
+        6382177945
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1714206632,
+      "lat": -20.5531005,
+      "lon": -47.4132571
+    },
+    {
+      "type": "node",
+      "id": 1714206637,
+      "lat": -20.5530462,
+      "lon": -47.4131835
+    },
+    {
+      "type": "node",
+      "id": 1714206644,
+      "lat": -20.5532974,
+      "lon": -47.4130917
+    },
+    {
+      "type": "node",
+      "id": 1714206648,
+      "lat": -20.5525458,
+      "lon": -47.4120709
+    },
+    {
+      "type": "node",
+      "id": 1714206769,
+      "lat": -20.5519712,
+      "lon": -47.4125535
+    },
+    {
+      "type": "node",
+      "id": 1714206779,
+      "lat": -20.5526686,
+      "lon": -47.4135006
+    },
+    {
+      "type": "node",
+      "id": 1714211040,
+      "lat": -20.5499099,
+      "lon": -47.4096382
+    },
+    {
+      "type": "node",
+      "id": 1714211044,
+      "lat": -20.5507719,
+      "lon": -47.4107028
+    },
+    {
+      "type": "node",
+      "id": 1714211047,
+      "lat": -20.5509438,
+      "lon": -47.4098557
+    },
+    {
+      "type": "node",
+      "id": 1714211052,
+      "lat": -20.5505467,
+      "lon": -47.4106802
+    },
+    {
+      "type": "node",
+      "id": 1714211076,
+      "lat": -20.549803,
+      "lon": -47.41029
+    },
+    {
+      "type": "node",
+      "id": 1714211080,
+      "lat": -20.5505867,
+      "lon": -47.4104366
+    },
+    {
+      "type": "node",
+      "id": 2967015847,
+      "lat": -20.5506995,
+      "lon": -47.4097859
+    },
+    {
+      "type": "node",
+      "id": 2967015848,
+      "lat": -20.5507547,
+      "lon": -47.4097962
+    },
+    {
+      "type": "node",
+      "id": 7080190527,
+      "lat": -20.5508566,
+      "lon": -47.410459
+    },
+    {
+      "type": "node",
+      "id": 2583540638,
+      "lat": -20.5554534,
+      "lon": -47.3964421
+    },
+    {
+      "type": "node",
+      "id": 2583540640,
+      "lat": -20.5555146,
+      "lon": -47.3964841
+    },
+    {
+      "type": "node",
+      "id": 2583540642,
+      "lat": -20.5557989,
+      "lon": -47.3980532
+    },
+    {
+      "type": "node",
+      "id": 2583540645,
+      "lat": -20.555777,
+      "lon": -47.3981793
+    },
+    {
+      "type": "node",
+      "id": 2987681009,
+      "lat": -20.5596503,
+      "lon": -47.4014544
+    },
+    {
+      "type": "node",
+      "id": 2987681010,
+      "lat": -20.5599906,
+      "lon": -47.4013686
+    },
+    {
+      "type": "node",
+      "id": 2987681011,
+      "lat": -20.5599015,
+      "lon": -47.4009032
+    },
+    {
+      "type": "node",
+      "id": 2987681012,
+      "lat": -20.5595562,
+      "lon": -47.400973
+    },
+    {
+      "type": "node",
+      "id": 2583540634,
+      "lat": -20.5549287,
+      "lon": -47.3983895
+    },
+    {
+      "type": "node",
+      "id": 2583540636,
+      "lat": -20.5546226,
+      "lon": -47.3965729
+    },
+    {
+      "type": "node",
+      "id": 3075439831,
+      "lat": -20.5435433,
+      "lon": -47.4115366
+    },
+    {
+      "type": "node",
+      "id": 3075439832,
+      "lat": -20.5438153,
+      "lon": -47.4114022
+    },
+    {
+      "type": "node",
+      "id": 3075442533,
+      "lat": -20.5437231,
+      "lon": -47.4111645
+    },
+    {
+      "type": "node",
+      "id": 3075442534,
+      "lat": -20.5436332,
+      "lon": -47.4111861
+    },
+    {
+      "type": "node",
+      "id": 3075442535,
+      "lat": -20.5436355,
+      "lon": -47.4112246
+    },
+    {
+      "type": "node",
+      "id": 3075442536,
+      "lat": -20.5434376,
+      "lon": -47.411311
+    },
+    {
+      "type": "node",
+      "id": 2967696614,
+      "lat": -20.540309,
+      "lon": -47.3956526
+    },
+    {
+      "type": "node",
+      "id": 6382123008,
+      "lat": -20.5907125,
+      "lon": -47.3703223
+    },
+    {
+      "type": "node",
+      "id": 6382123009,
+      "lat": -20.5909054,
+      "lon": -47.3704642
+    },
+    {
+      "type": "node",
+      "id": 6382123010,
+      "lat": -20.5911332,
+      "lon": -47.3701263
+    },
+    {
+      "type": "node",
+      "id": 6382123011,
+      "lat": -20.5909339,
+      "lon": -47.3699945
+    },
+    {
+      "type": "node",
+      "id": 6382141942,
+      "lat": -20.5881655,
+      "lon": -47.3722866
+    },
+    {
+      "type": "node",
+      "id": 6382141943,
+      "lat": -20.5884992,
+      "lon": -47.3725164
+    },
+    {
+      "type": "node",
+      "id": 6382141944,
+      "lat": -20.5886653,
+      "lon": -47.37229
+    },
+    {
+      "type": "node",
+      "id": 6382144166,
+      "lat": -20.5903912,
+      "lon": -47.3745229
+    },
+    {
+      "type": "node",
+      "id": 6382144167,
+      "lat": -20.5904979,
+      "lon": -47.3745953
+    },
+    {
+      "type": "node",
+      "id": 6382144168,
+      "lat": -20.5905607,
+      "lon": -47.3745054
+    },
+    {
+      "type": "node",
+      "id": 6382144169,
+      "lat": -20.5904515,
+      "lon": -47.3744317
+    },
+    {
+      "type": "node",
+      "id": 3024791340,
+      "lat": -20.5423643,
+      "lon": -47.3877838
+    },
+    {
+      "type": "node",
+      "id": 2967696615,
+      "lat": -20.5397605,
+      "lon": -47.395547
+    },
+    {
+      "type": "node",
+      "id": 2967696616,
+      "lat": -20.5398805,
+      "lon": -47.395165
+    },
+    {
+      "type": "node",
+      "id": 2967696617,
+      "lat": -20.5399761,
+      "lon": -47.3951912
+    },
+    {
+      "type": "node",
+      "id": 2967696618,
+      "lat": -20.5400743,
+      "lon": -47.3948968
+    },
+    {
+      "type": "node",
+      "id": 2967696619,
+      "lat": -20.5403173,
+      "lon": -47.395095
+    },
+    {
+      "type": "node",
+      "id": 2967696621,
+      "lat": -20.5404484,
+      "lon": -47.3952301
+    },
+    {
+      "type": "node",
+      "id": 3048013933,
+      "lat": -20.5401127,
+      "lon": -47.3956148
+    },
+    {
+      "type": "node",
+      "id": 3024791339,
+      "lat": -20.5422171,
+      "lon": -47.3878728
+    },
+    {
+      "type": "node",
+      "id": 3024791341,
+      "lat": -20.5422014,
+      "lon": -47.3874339
+    },
+    {
+      "type": "node",
+      "id": 3024791342,
+      "lat": -20.5420486,
+      "lon": -47.3875209
+    },
+    {
+      "type": "node",
+      "id": 3072708824,
+      "lat": -20.5558109,
+      "lon": -47.3609686
+    },
+    {
+      "type": "node",
+      "id": 3072708825,
+      "lat": -20.5561082,
+      "lon": -47.3609074
+    },
+    {
+      "type": "node",
+      "id": 3072708826,
+      "lat": -20.5559789,
+      "lon": -47.3601936
+    },
+    {
+      "type": "node",
+      "id": 3072708827,
+      "lat": -20.5556809,
+      "lon": -47.3602471
+    },
+    {
+      "type": "node",
+      "id": 5586984128,
+      "lat": -20.5560003,
+      "lon": -47.3603216
+    },
+    {
+      "type": "node",
+      "id": 6382177945,
+      "lat": -20.6378729,
+      "lon": -47.282299
+    },
+    {
+      "type": "node",
+      "id": 6382177946,
+      "lat": -20.6380753,
+      "lon": -47.2827451
+    },
+    {
+      "type": "node",
+      "id": 6382177947,
+      "lat": -20.638303,
+      "lon": -47.2826268
+    },
+    {
+      "type": "node",
+      "id": 6382177948,
+      "lat": -20.6380879,
+      "lon": -47.2821672
+    },
+    {
+      "type": "node",
+      "id": 2987076508,
+      "lat": -20.5316958,
+      "lon": -47.4181569
+    },
+    {
+      "type": "node",
+      "id": 2987076511,
+      "lat": -20.5318132,
+      "lon": -47.4176983
+    },
+    {
+      "type": "node",
+      "id": 5415586167,
+      "lat": -20.532544,
+      "lon": -47.4174135
+    },
+    {
+      "type": "node",
+      "id": 5415586168,
+      "lat": -20.5324223,
+      "lon": -47.4173795
+    },
+    {
+      "type": "node",
+      "id": 5415586169,
+      "lat": -20.5324682,
+      "lon": -47.417239
+    },
+    {
+      "type": "node",
+      "id": 5415586170,
+      "lat": -20.5326077,
+      "lon": -47.4172816
+    },
+    {
+      "type": "node",
+      "id": 8205519453,
+      "lat": -20.5323482,
+      "lon": -47.4178264
+    },
+    {
+      "type": "node",
+      "id": 8205519454,
+      "lat": -20.5321323,
+      "lon": -47.4182904
+    },
+    {
+      "type": "node",
+      "id": 5900858138,
+      "lat": -20.5352796,
+      "lon": -47.4087139
+    },
+    {
+      "type": "node",
+      "id": 5900858139,
+      "lat": -20.5353196,
+      "lon": -47.4085179
+    },
+    {
+      "type": "node",
+      "id": 5900858140,
+      "lat": -20.535408,
+      "lon": -47.4085441
+    },
+    {
+      "type": "node",
+      "id": 5900858141,
+      "lat": -20.5353671,
+      "lon": -47.4087305
+    },
+    {
+      "type": "node",
+      "id": 2969049035,
+      "lat": -20.5165696,
+      "lon": -47.4092112
+    },
+    {
+      "type": "node",
+      "id": 2969049036,
+      "lat": -20.5166825,
+      "lon": -47.4093197
+    },
+    {
+      "type": "node",
+      "id": 3435171542,
+      "lat": -20.5162749,
+      "lon": -47.4093392
+    },
+    {
+      "type": "node",
+      "id": 2969048930,
+      "lat": -20.5161587,
+      "lon": -47.4079055
+    },
+    {
+      "type": "node",
+      "id": 2969048932,
+      "lat": -20.5161194,
+      "lon": -47.4083732
+    },
+    {
+      "type": "node",
+      "id": 2969049033,
+      "lat": -20.5162002,
+      "lon": -47.408595
+    },
+    {
+      "type": "node",
+      "id": 2969049034,
+      "lat": -20.5170417,
+      "lon": -47.4082328
+    },
+    {
+      "type": "node",
+      "id": 3435171543,
+      "lat": -20.5164878,
+      "lon": -47.4080236
+    },
+    {
+      "type": "node",
+      "id": 2969048931,
+      "lat": -20.5158095,
+      "lon": -47.4080832
+    },
+    {
+      "type": "node",
+      "id": 3435171541,
+      "lat": -20.5160023,
+      "lon": -47.4086706
+    },
+    {
+      "type": "node",
+      "id": 5895147683,
+      "lat": -20.4073726,
+      "lon": -47.4208444
+    },
+    {
+      "type": "node",
+      "id": 5895147686,
+      "lat": -20.4073284,
+      "lon": -47.4207803
+    },
+    {
+      "type": "node",
+      "id": 5895147687,
+      "lat": -20.407507,
+      "lon": -47.4207383
+    },
+    {
+      "type": "node",
+      "id": 5895147688,
+      "lat": -20.4072436,
+      "lon": -47.4206659
+    },
+    {
+      "type": "node",
+      "id": 5895147689,
+      "lat": -20.407375,
+      "lon": -47.420554
+    },
+    {
+      "type": "node",
+      "id": 5895147694,
+      "lat": -20.4067551,
+      "lon": -47.4208846
+    },
+    {
+      "type": "node",
+      "id": 5895147695,
+      "lat": -20.406571,
+      "lon": -47.4210281
+    },
+    {
+      "type": "node",
+      "id": 5895147696,
+      "lat": -20.4064694,
+      "lon": -47.4208768
+    },
+    {
+      "type": "node",
+      "id": 5895147697,
+      "lat": -20.4066513,
+      "lon": -47.4207369
+    },
+    {
+      "type": "node",
+      "id": 5895155997,
+      "lat": -20.4073108,
+      "lon": -47.4207579
+    },
+    {
+      "type": "node",
+      "id": 5896919921,
+      "lat": -20.40741,
+      "lon": -47.4208156
+    },
+    {
+      "type": "node",
+      "id": 5896919924,
+      "lat": -20.4074886,
+      "lon": -47.4207516
+    },
+    {
+      "type": "node",
+      "id": 6128816343,
+      "lat": -20.248544,
+      "lon": -47.479684
+    },
+    {
+      "type": "node",
+      "id": 6128816344,
+      "lat": -20.2486292,
+      "lon": -47.4797502
+    },
+    {
+      "type": "node",
+      "id": 6128816345,
+      "lat": -20.2484414,
+      "lon": -47.4799905
+    },
+    {
+      "type": "node",
+      "id": 6128816346,
+      "lat": -20.2484876,
+      "lon": -47.4800321
+    },
+    {
+      "type": "node",
+      "id": 6128816347,
+      "lat": -20.2484486,
+      "lon": -47.4800861
+    },
+    {
+      "type": "node",
+      "id": 6128816348,
+      "lat": -20.24832,
+      "lon": -47.4799551
+    },
+    {
+      "type": "node",
+      "id": 6131723933,
+      "lat": -20.2375328,
+      "lon": -47.4782189
+    },
+    {
+      "type": "node",
+      "id": 6131723934,
+      "lat": -20.2375573,
+      "lon": -47.4781227
+    },
+    {
+      "type": "node",
+      "id": 6131723935,
+      "lat": -20.2377285,
+      "lon": -47.4781721
+    },
+    {
+      "type": "node",
+      "id": 6131723936,
+      "lat": -20.2377041,
+      "lon": -47.4782683
+    },
+    {
+      "type": "node",
+      "id": 6131723937,
+      "lat": -20.2383874,
+      "lon": -47.478422
+    },
+    {
+      "type": "node",
+      "id": 6131723938,
+      "lat": -20.2384134,
+      "lon": -47.4783358
+    },
+    {
+      "type": "node",
+      "id": 6131723939,
+      "lat": -20.2387256,
+      "lon": -47.4783019
+    },
+    {
+      "type": "node",
+      "id": 6131723940,
+      "lat": -20.2387025,
+      "lon": -47.4784128
+    },
+    {
+      "type": "node",
+      "id": 6131723941,
+      "lat": -20.2370797,
+      "lon": -47.4766059
+    },
+    {
+      "type": "node",
+      "id": 6131723942,
+      "lat": -20.2370484,
+      "lon": -47.4767045
+    },
+    {
+      "type": "node",
+      "id": 6131723943,
+      "lat": -20.2371617,
+      "lon": -47.4767454
+    },
+    {
+      "type": "node",
+      "id": 6131723944,
+      "lat": -20.2371931,
+      "lon": -47.4766468
+    },
+    {
+      "type": "node",
+      "id": 3048293022,
+      "lat": -20.5254596,
+      "lon": -47.3800106
+    },
+    {
+      "type": "node",
+      "id": 3048293023,
+      "lat": -20.525426,
+      "lon": -47.3795252
+    },
+    {
+      "type": "node",
+      "id": 3048293024,
+      "lat": -20.5261678,
+      "lon": -47.3794667
+    },
+    {
+      "type": "node",
+      "id": 3048293025,
+      "lat": -20.5262014,
+      "lon": -47.3799521
+    },
+    {
+      "type": "node",
+      "id": 3048293031,
+      "lat": -20.5255266,
+      "lon": -47.3795173
+    },
+    {
+      "type": "node",
+      "id": 3048293144,
+      "lat": -20.5271236,
+      "lon": -47.3818164
+    },
+    {
+      "type": "node",
+      "id": 3048293145,
+      "lat": -20.5270815,
+      "lon": -47.3813292
+    },
+    {
+      "type": "node",
+      "id": 3048293146,
+      "lat": -20.5266035,
+      "lon": -47.3813763
+    },
+    {
+      "type": "node",
+      "id": 3048293147,
+      "lat": -20.5266456,
+      "lon": -47.3818634
+    },
+    {
+      "type": "node",
+      "id": 3048293158,
+      "lat": -20.5271179,
+      "lon": -47.3817502
+    },
+    {
+      "type": "node",
+      "id": 2972238154,
+      "lat": -20.5069522,
+      "lon": -47.395175
+    },
+    {
+      "type": "node",
+      "id": 2972238155,
+      "lat": -20.5073891,
+      "lon": -47.3951575
+    },
+    {
+      "type": "node",
+      "id": 2972238156,
+      "lat": -20.5073795,
+      "lon": -47.3947596
+    },
+    {
+      "type": "node",
+      "id": 2972238157,
+      "lat": -20.5071789,
+      "lon": -47.3947436
+    }
+  ]
+}
