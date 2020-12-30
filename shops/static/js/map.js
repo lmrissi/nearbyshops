@@ -1,5 +1,7 @@
 // Carregando a localização do usuário pelo IP
 
+localizacao = L.layerGroup();
+
 var user_location = document.addEventListener('DOMContentLoaded', function(){
 
     navigator.geolocation.getCurrentPosition(function(position) {
@@ -9,6 +11,7 @@ var user_location = document.addEventListener('DOMContentLoaded', function(){
         return new L.CircleMarker([latitude,longitude], {radius: 10})
         .bindPopup('Esta é sua localização.')
         .addTo(map)
+        .addTo(localizacao)
     });
 });
 
@@ -19,7 +22,13 @@ var gstreets = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
     attribution: 'Google'
 });
 
-//Carregando o layer das lojas e das imagens estaticas
+googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+    maxZoom: 20,
+    subdomains:['mt0','mt1','mt2','mt3'],
+    attribution: 'Google Satelite'
+});
+
+//Carregando o layer das lojas
 
 var nearbyshops_style = {
     fillColor: '#FF8C00',
@@ -48,23 +57,25 @@ var nearbyshops = L.geoJson([], {
 // Criando o mapa
 
 var map = L.map('map', {
-    center: [25.761681, -80.191788],
-	zoom: 15,
-	layers: [gstreets]
+    center: [-23.5549792,-46.682847],
+	zoom: 18,
+	layers: [gstreets, googleSat]
 });
 
 // Criando o controle de layers
 
 var baseLayers = {
-	"Google Streets": gstreets,
+    "Google Streets": gstreets,
+    "Google Satélite": googleSat,
 };
 
 var overlays = {
-    //"Localização": user_location,
     "Lojas": nearbyshops,
+    "Localizacao": localizacao
 };
 
-L.control.layers(baseLayers, overlays).addTo(map);
+L.control.layers(baseLayers, overlays, {autoZIndex:false}).addTo(map);
 
+// Barra de escala
 var scale = L.control.scale()
 scale.addTo(map)

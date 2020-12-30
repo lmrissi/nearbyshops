@@ -7,16 +7,27 @@
 
 {% block content %}
 
-<h1>Nearby Shops</h1>
+<h2 id="titulo_tabela">Lojas mais próximas da sua localização</h2>
 
 {% if shops %}
-<ul>
-    {% for shop in shops %}
-    <li>
-        {{ shop.name }}: {{shop.distance}} - {{shop.location}}
-    </li>
-    {% endfor %}
-</ul>
+
+<table class="table table-striped table-hover" id="shops_table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col" id="cabeçalho">Nome da Loja</th>
+            <th scope="col" id="cabeçalho">Distância (metros)</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for shop in shops %}
+        <tr>
+            <td id="conteudo_tabela">{{ shop.name }}</td>
+            <td id="conteudo_tabela">{{ shop.distance }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
 {% endif %}
 
 <div id="map"></div>

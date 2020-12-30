@@ -10,3 +10,15 @@ body {
     border: 1px solid #cfcfcf;
     border-radius: 8px;
 }
+
+#titulo_tabela {
+    text-align: center;
+}
+
+#cabeçalho {
+    text-align: center;
+}
+
+#conteudo_tabela {
+    text-align: center;
+}
